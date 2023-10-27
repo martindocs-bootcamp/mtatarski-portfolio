@@ -5,39 +5,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>Marcin Tatrski // Web Developer</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
+  <header class="header">
+    <h1 class="header__title">Marcin Tatarski</h1>
+    <div class="header__picture">
+      <img src="./images/me.png" alt="Photo of Marcin Tatarski on a white background">
+    </div>
+    <nav class="nav">
+      <ul class="nav__links" role="navigation" aria-label="Main Menu">
+        <li class="nav__link">
+          <a href="#about">About Me</a>  
+        </li>
+        <li class="nav__link">
+          <a href="#work">Work</a>
+        </li>
+        <li class="nav__link">
+          <a href="#contact">Contact Me</a>
+        </li>
+      </ul>
     </nav>
   </header>
 
   <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
+  <section class="hero-banner" alt="" aria-hidden="true">    
+      <h2 class="hero-banner__tagline">Cool subtitle here!</h2>    
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2>About Me</h2>
+      <h2 class="page-section__title">About Me</h2>
+      <div class="page-section__about">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, cupiditate?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, cupiditate?</p>
+      </div>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
+      <h2 class="page-section__title">Work</h2>
+      <div class="page-section__work">
+        <div class="page-section__work--project">1</div>
+        <div class="page-section__work--project">2</div>
+        <div class="page-section__work--project">3</div>
+        <div class="page-section__work--project">4</div>
+        <div class="page-section__work--project">5</div>
+      </div>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <section class="page-section" id="contact">
+      <h2 class="page-section__title">Contact Me</h2>
+      <div class="page-section__contact">
+        <a class="page-section__contact--link" href="mailto:martin.tatarski@gmail.com">martin.tatarski@gmail.com</a>
+        <a class="page-section__contact--link" href="https://github.com/martindocs">GitHub</a>
+      </div>
     </section>
   </main>
 </body>
