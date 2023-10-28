@@ -95,6 +95,8 @@ p {
 }
 .nav__link a:hover{
   cursor: pointer;
+  color: var(--white-color);
+  border-bottom: 2px solid var(--black-color);
 }
 
 
