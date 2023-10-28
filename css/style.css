@@ -146,6 +146,11 @@ p {
   font-size: 1.4rem;  
 }
 
+/* ABOUT ME */
+.page-section__about p:not(:last-child){
+  margin-bottom: 20px;
+}
+
 /* MAIN CONTENT - WORK */
 .work{
   display: grid;
@@ -172,6 +177,9 @@ p {
 .project__img{
   width: 100%;
   height: 100%;
+}
+.project__img:hover{
+  opacity: .75;
 }
 .project__tag{
   position: absolute;
@@ -358,5 +366,4 @@ p {
   .page-section__title{
     font-size: 4rem;
   }
-
 }
