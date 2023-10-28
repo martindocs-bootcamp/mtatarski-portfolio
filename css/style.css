@@ -48,7 +48,7 @@ p {
   background: grey;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 15px 50px 15px 20px;
+  padding: 15px 10px 15px 20px;
 }
 .header__logo{
   display: flex;
@@ -76,6 +76,11 @@ p {
 }
 
 /* NAVIGATION */
+/* desktop nav */
+.nav{
+  display: flex;
+  align-items: flex-end;
+}
 .nav__links{
   display: flex;
   width: 500px;
@@ -91,6 +96,11 @@ p {
 .nav__link a:hover{
   cursor: pointer;
 }
+.mobile-container{
+  display: none;
+}
+
+
 
 /* TAGLINE */
 .hero-banner{
@@ -263,10 +273,15 @@ p {
   }
 
   /* navigation */
-  .nav{
-    display: none;
+  .nav__links{
+    width: 660px;
+    margin: 20px 20px 5px;
   }
-
+  .nav__link a{
+    font-size: 3rem;
+    padding-right: 20px;
+  }
+ 
   /* banner */
   .hero-banner__tagline{
     font-size: 3rem;
@@ -318,12 +333,25 @@ p {
 
   /* header */
   .header__logo{
-    width: 545px;
+    width: 540px;
+  }
+  .header__logo--picture{
+    left: 15px;
   }
   .header__logo--title{
-    font-size: 3.5rem;
+    font-size: 3.25rem;
     padding-left: 30px; 
     padding-right: 10px; 
+  }
+
+  /* navigation */
+  .nav__links{
+    width: 620px;
+    margin: 20px 20px 5px;
+  }
+  .nav__link a{
+    font-size: 2.9rem;
+    padding-right: 10px;
   }
 
   /* main content */
