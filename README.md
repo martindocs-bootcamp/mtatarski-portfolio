@@ -37,4 +37,4 @@ N/A (No contributors at this time).
 
 ## License
 
-Please refer to the [LICENSE](./LICENSE) file in this repository for details on how this project is licensed.
+Please refer to the [LICENSE](./LICENSE.md) file in this repository for details on how this project is licensed.
