@@ -357,6 +357,10 @@ p {
     padding-right: 0;
   }
 
+  .work__project {
+    height: 300px;
+  }
+
   .project__tag {
     font-size: 2rem;
     padding: 20px;
