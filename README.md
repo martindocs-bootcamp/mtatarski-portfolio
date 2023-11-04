@@ -16,7 +16,7 @@ My goal is to advance my career in front-end development, contributing to innova
 
 ## Screenshot
 
-![Main Page](./images/portfolio-desktop.png)
+![Main Page](./assets/images/portfolio-desktop.png)
 *This is the main page of my portfolio, featuring an 'About Me' section, a showcase of my most recent work, and a way to get in touch with me.*
 
 ## Usage
