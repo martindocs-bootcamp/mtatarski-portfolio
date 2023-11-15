@@ -25,7 +25,7 @@ To access and view my portfolio website, you can follow these simple steps:
 
 1. Open a web browser.
 
-2. Navigate to the following URL: https://martindocs.github.io/marcin-tatarski-portfolio/
+2. Navigate to the following URL: https://martindocs.github.io/mtatarski-portfolio/
 
 3. Explore the various sections, including 'About Me', 'Work', and 'Contact Me', to learn more about my skills and projects.
 
